@@ -21,7 +21,7 @@ Developed a java program, re-creating the single player Simon game. Based on the
 
 More details of the assignment is at [Assignment Details.](https://github.com/khatington/Simon_Game/blob/main/CS230%20-%20Assignment%202.pdf)
 
-### Reference
+## References
 Youtube: [Simon Game tutorial](https://youtu.be/n_ec3eowFLQ?si=bEuum7ERcN-Ifivw)
 
 > [!NOTE]
