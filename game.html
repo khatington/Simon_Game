@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Game Assignment</title>
+    <!--FONT ORBITRON-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assignment-02.css">
+</head>
+<body>
+    <!--START OF CODE-->
+    <h1>Single player Simon Memory Game</h1>
+    <p>Note: only does the minimum, look into console to
+        <br> see if it works because page might be slow to show flash</p>
+    <!--START OF INTERFACE CODE-->
+    <div class="main-cont">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <!--ALL THE BUTTONS IN INTERFACE-->
+        <button class= "button middle"></button>
+        <button class= "button yellow" id = "bottomleft"></button>
+        <button class= "button blue" id = "bottomright"></button>
+        <button class= "button green" id="topleft"></button>
+        <button class= "button red" id = "topright"></button>
+
+        <!--The container for the middle buttons-->
+        <div class="mini-cont">
+            <div class="mini left" id = "current">00</div>
+            <button class="mini start" id="start" onclick="toggle()">START</button>
+            <div class="mini right" id="score">00</div>
+            <div class="mini signal" id="signal"></div>
+        </div>
+    </div>
+    <!--link to javascript-->
+    <script src="assignment-02.js"></script>
+</body>
+</html>
